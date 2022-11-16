@@ -1,0 +1,53 @@
+.student{
+    color: blue;
+}
+.header-manu{
+    display: flex;
+}
+.manu{
+    display: flex;
+    /* margin-right: 900px; */
+    float: right;
+    margin-left: 400px;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: purple;
+}
+nav li a:hover{
+    color: red;
+}
+
+.baner{
+    height: 450px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.news-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.news-main-div{
+    border: 2px solid lightcoral;
+    box-shadow: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.footer-div{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+footer div p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
